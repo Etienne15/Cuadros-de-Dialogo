@@ -1,0 +1,35 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package cuadrosdedialogo;
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author Alumno
+ */
+public class CuadrosDeDialogo {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // variable de Entrada
+        String nombre;
+        nombre = JOptionPane.showInputDialog("Introducción de datos", "Ingrese su nombre");
+        
+        JOptionPane.showMessageDialog(null, "Send Nudes " + nombre);
+        
+        //Definir Variables numericas
+        int numero;
+        numero = Integer.parseInt(JOptionPane.showInputDialog ("Introducir Numeros", "Ingrese un numero"));
+        JOptionPane.showMessageDialog(null, "Tu cantidad de nudes son: " + numero);
+
+        
+        
+    }
+    
+    
+}
